@@ -1,0 +1,12 @@
+apiVersion: tutorial.study.dev/v1alpha1
+kind: SecSynch
+metadata:
+  name: secretsync-a
+  namespace: default
+
+spec:
+  destinationNamespaces:
+  - a1
+  - a2
+  secretName: secret-a
+  sourceNamespace: default

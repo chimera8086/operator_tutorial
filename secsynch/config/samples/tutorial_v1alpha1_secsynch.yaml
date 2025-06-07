@@ -1,0 +1,9 @@
+apiVersion: tutorial.study.dev/v1alpha1
+kind: SecSynch
+metadata:
+  labels:
+    app.kubernetes.io/name: secsynch
+    app.kubernetes.io/managed-by: kustomize
+  name: secsynch-sample
+spec:
+  # TODO(user): Add fields here
